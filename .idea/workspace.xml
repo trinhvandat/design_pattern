@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223472cd-9e99-44f4-aa5c-f4fc84ccb339" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/bridge/Banking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/bridge/BridgeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/bridge/DirectPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/bridge/Paying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/bridge/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/bridge/PaymentAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/adapter/Momo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern.vpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ptit/bridge/BridgeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapter/Momo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -129,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/com/ptit/bridge/Banking.java" />
         <option value="$PROJECT_DIR$/src/com/ptit/bridge/DirectPayment.java" />
         <option value="$PROJECT_DIR$/src/com/ptit/bridge/BridgeDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/adapter/Momo.java" />
       </list>
     </option>
   </component>
@@ -168,7 +173,7 @@
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ptit" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BridgeDemo">
+  <component name="RunManager" selected="Application.AdapterDemo">
     <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ptit.abstractfactory.AbstractFactoryDemo" />
       <module name="design_pattern" />
@@ -212,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ptit.bridge.BridgeDemo" />
+    <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ptit.adapter.AdapterDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ptit.bridge.*" />
+          <option name="PATTERN" value="com.ptit.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ptit.facade.ClientService" />
+    <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ptit.bridge.BridgeDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ptit.facade.*" />
+          <option name="PATTERN" value="com.ptit.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterDemo" />
         <item itemvalue="Application.BridgeDemo" />
         <item itemvalue="Application.UserBuilderDemo" />
         <item itemvalue="Application.AbstractFactoryDemo" />
         <item itemvalue="Application.PaymentFactoryDemo" />
-        <item itemvalue="Application.ClientService" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +307,7 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40504202" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44705883" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,6 +578,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/adapter/Momo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
