@@ -302,11 +302,11 @@
       </method>
     </configuration>
     <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ptit.adapterpattern.DecoratorDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ptit.decorator.DecoratorDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ptit.adapterpattern.*" />
+          <option name="PATTERN" value="com.ptit.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

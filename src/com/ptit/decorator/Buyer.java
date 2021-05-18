@@ -1,4 +1,4 @@
-package com.ptit.adapterpattern;
+package com.ptit.decorator;
 
 public class Buyer extends UserDecorator {
     public Buyer(UserComponent user) {

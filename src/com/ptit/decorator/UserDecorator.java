@@ -1,4 +1,4 @@
-package com.ptit.adapterpattern;
+package com.ptit.decorator;
 
 public abstract class UserDecorator implements UserComponent {
 
