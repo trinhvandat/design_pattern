@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="223472cd-9e99-44f4-aa5c-f4fc84ccb339" name="Default Changelist" comment="" />
+    <list default="true" id="223472cd-9e99-44f4-aa5c-f4fc84ccb339" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/adapterpattern/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/adapterpattern/DecoratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/adapterpattern/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/adapterpattern/UserComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/adapterpattern/UserConcreteComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/adapterpattern/UserDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,68 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/bridge/PaymentAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/bridge/Paying.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/bridge/Payment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/bridge/BridgeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapter/Momo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding>
-                <element signature="e#79#80#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapter/Payment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ptit/adapter/PaymentProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -89,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ptit/adapter/AdapterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -99,19 +45,101 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/bridge/Banking.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/singleton/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ptit/bridge/DirectPayment.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/singleton/SingletonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/UserComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/UserConcreteComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/UserDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/Buyer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/Seller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/DecoratorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -169,6 +197,14 @@
         <option value="$PROJECT_DIR$/src/com/ptit/adapter/Payment.java" />
         <option value="$PROJECT_DIR$/src/com/ptit/adapter/PaymentProcessing.java" />
         <option value="$PROJECT_DIR$/src/com/ptit/adapter/AdapterDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/singleton/Cart.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/singleton/SingletonDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/adapterpattern/UserComponent.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/adapterpattern/UserConcreteComponent.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/adapterpattern/UserDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/adapterpattern/DecoratorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/adapterpattern/Seller.java" />
+        <option value="$PROJECT_DIR$/src/com/ptit/adapterpattern/Buyer.java" />
       </list>
     </option>
   </component>
@@ -208,7 +244,7 @@
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ptit" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="adapterpattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,20 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonDemo">
-    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ptit.abstractfactory.AbstractFactoryDemo" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ptit.abstractfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DecoratorDemo">
     <configuration name="AdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ptit.adapter.AdapterDemo" />
       <module name="design_pattern" />
@@ -271,6 +294,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ptit.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ptit.adapterpattern.DecoratorDemo" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ptit.adapterpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorDemo" />
         <item itemvalue="Application.SingletonDemo" />
         <item itemvalue="Application.AdapterDemo" />
         <item itemvalue="Application.BridgeDemo" />
         <item itemvalue="Application.UserBuilderDemo" />
-        <item itemvalue="Application.AbstractFactoryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +378,7 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44705883" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4252101" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -649,6 +685,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/singleton/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/singleton/SingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/UserComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/DecoratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/UserConcreteComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/UserDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/Seller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ptit/adapterpattern/Buyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
