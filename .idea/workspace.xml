@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223472cd-9e99-44f4-aa5c-f4fc84ccb339" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/interator/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/interator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/interator/IteratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/interator/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/composite/CompositePartternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/composite/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +244,7 @@
       <updated>1618423441131</updated>
       <workItem from="1621442130738" duration="3182000" />
       <workItem from="1621476858064" duration="312000" />
-      <workItem from="1621482674379" duration="3059000" />
+      <workItem from="1621482674379" duration="3765000" />
     </task>
     <servers />
   </component>
