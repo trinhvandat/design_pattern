@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223472cd-9e99-44f4-aa5c-f4fc84ccb339" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/Mailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/ObserverDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/UserObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/UserSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ptit/observer/Warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/flyweight/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/flyweight/FlyweightPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/flyweight/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ptit/flyweight/ShapeFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +138,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/ptit/abstractfactory" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -247,7 +244,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618423441131</updated>
-      <workItem from="1621442130738" duration="2837000" />
+      <workItem from="1621442130738" duration="3182000" />
+      <workItem from="1621476858064" duration="312000" />
+      <workItem from="1621482674379" duration="1158000" />
     </task>
     <servers />
   </component>
@@ -298,6 +297,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ptit/factory/DirectPayment.java">
